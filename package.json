@@ -1,0 +1,21 @@
+{
+  "name": "database-bot",
+  "version": "1.0.0",
+  "description": "Private bot made for a friend's 'Database'",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js --ignore commands/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oregonian Pyro#0001",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.0.0",
+    "enmap": "^4.2.4",
+    "moment": "^2.22.2",
+    "ms": "^2.1.1",
+    "table": "^5.0.2"
+  }
+}
