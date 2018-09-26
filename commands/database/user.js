@@ -34,7 +34,7 @@ module.exports = class extends Command {
             presence: {
                 _status: fetchUser.presence.status,
                 _game: {
-                    name: fetchUser.game ? fetchUser.game.name : 'Not Playing a Game'
+                    name: fetchUser.presence.game ? fetchUser.presence.game.name : 'Not Playing a Game'
                 }
             },
             bot: fetchUser.bot,
